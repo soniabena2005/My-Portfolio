@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Sonia Benamaouche, System and Security engineering student at ENSTA, Algiers.">
+    <title>Sonia Benamaouche | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#home" class="logo">Sonia Bn<span>.</span></a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav id="navMenu" class="nav" aria-label="Main navigation">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Home -->
+        <section id="home" class="hero">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1>Sonia<br><strong>BENAMAOUCHE</strong></h1>
+                    <p class="hero-role">I'm a <span id="typed" aria-live="off"></span><span class="cursor">|</span></p>
+                    <p class="hero-desc">Fourth-year engineering student in System and Security at ENSTA, passionate about technology, curious by nature, and always eager to learn and grow.</p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary">Contact me</a>
+                        <a href="#projects" class="btn btn-ghost">See my projects</a>
+                    </div>
+                </div>
+
+                <div class="code-window" aria-hidden="true">
+                    <div class="code-bar"><i></i><i></i><i></i></div>
+                    <div class="code-body">
+                        <div class="code-line"><b>01</b><span style="width:30%"></span></div>
+                        <div class="code-line"><b>02</b><span class="a" style="width:22%"></span><span style="width:38%"></span></div>
+                        <div class="code-line"><b>03</b><span class="a" style="width:16%"></span><span style="width:46%"></span></div>
+                        <div class="code-line indent"><b>04</b><span class="b" style="width:34%"></span></div>
+                        <div class="code-line indent"><b>05</b><span style="width:26%"></span></div>
+                        <div class="code-line"><b>06</b><span class="a" style="width:12%"></span></div>
+                        <div class="code-line"><b>07</b><span class="b" style="width:40%"></span><span style="width:18%"></span></div>
+                        <div class="code-line indent"><b>08</b><span style="width:32%"></span></div>
+                        <div class="code-line"><b>09</b><span class="a" style="width:20%"></span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="container narrow">
+                <h2 class="section-title">About me</h2>
+                <p>
+                    I am a fourth-year engineering student specializing in System and Security at the
+                    National Higher School of Advanced Technologies (ENSTA) in Algiers, Algeria.
+                    I am passionate about technology and enjoy learning new tools and building
+                    applications that solve real problems.
+                </p>
+                <p>
+                    Alongside my studies, I design and develop web and mobile projects: UniHub, a
+                    platform for university students built with React and Firebase, and Planivia,
+                    a life-planning app built with Flutter. These projects taught me to work in a team,
+                    structure a codebase, and deliver features from idea to working product.
+                </p>
+                <p>
+                    My goal is to become a skilled engineer and contribute to innovative projects
+                    that have a positive impact on society. I am currently open to internships and
+                    collaboration opportunities.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">My skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-group">
+                        <h3>Web</h3>
+                        <ul class="chips">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React.js</li>
+                            <li>Tailwind CSS</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Programming</h3>
+                        <ul class="chips">
+                            <li>Python</li>
+                            <li>Dart</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Mobile</h3>
+                        <ul class="chips">
+                            <li>Flutter</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Cloud and tools</h3>
+                        <ul class="chips">
+                            <li>Firebase</li>
+                            <li>Supabase</li>
+                            <li>Cloudinary</li>
+                            <li>Git and GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">My projects</h2>
+                <div class="cards">
+
+                    <article class="card">
+                        <h3>UniHub</h3>
+                        <p>
+                            UniHub is a centralized platform made by students, for students. It makes
+                            university life easier, more connected, and more organized by bringing several
+                            useful services together in one place.
+                        </p>
+                        <p>
+                            It includes study resources, a lost and found system, an events board, and a
+                            private chat system for communication between students.
+                        </p>
+                        <p class="card-meta"><strong>My contribution:</strong> Private chat system</p>
+                        <ul class="chips chips-small">
+                            <li>React.js</li>
+                            <li>Tailwind CSS</li>
+                            <li>Firebase</li>
+                            <li>Cloudinary</li>
+                            <li>Supabase</li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <h3>Planivia</h3>
+                        <p>
+                            Planivia is a life-planning and organization app developed with Flutter by me
+                            and a friend. It helps users organize their daily tasks, goals, activities, and
+                            personal life in one place.
+                        </p>
+                        <p>
+                            It includes a to-do list, weekly, monthly, and yearly goals, a shopping and
+                            grocery list, a calendar for important events, and a journal.
+                        </p>
+                        <p class="card-meta"><strong>Team:</strong> 2 students</p>
+                        <ul class="chips chips-small">
+                            <li>Flutter</li>
+                        </ul>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="section section-alt">
+            <div class="container narrow">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+
+                    <article class="timeline-item">
+                        <h3>National Higher School of Advanced Technologies (ENSTA)</h3>
+                        <p><strong>Specialization:</strong> System and Security</p>
+                        <p>Fourth-year student</p>
+                        <p class="muted">Algiers, Algeria</p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <h3>Baccalaureate in Mathematics</h3>
+                        <p>Lycée Debbih Cherif</p>
+                        <p><strong>Grade:</strong> 15.99 / 20 &nbsp; <strong>Mention:</strong> Good</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <div class="container narrow">
+                <h2 class="section-title">Contact me</h2>
+                <p>
+                    If you would like to get in touch, send me a message using the form below.
+                </p>
+
+                <form id="contactForm" novalidate>
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        <small class="error" id="nameError"></small>
+                    </div>
+
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        <small class="error" id="emailError"></small>
+                    </div>
+
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write your message..." rows="5" required></textarea>
+                        <small class="error" id="messageError"></small>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send message</button>
+                    <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+                </form>
+
+                <p class="contact-direct">
+                    You can also reach me at
+                    <a href="mailto:benamaouche.sonia05@gmail.com">benamaouche.sonia05@gmail.com</a>
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="year">2026</span> Sonia Benamaouche. All rights reserved.</p>
+    </footer>
+
+    <button id="toTop" class="to-top" aria-label="Back to top">&#8593;</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
