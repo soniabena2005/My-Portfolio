@@ -46,24 +46,28 @@ I wanted it to feel clean and calm, so I went with a light sky-blue theme and th
 ## Project structure
 
 ```
-portfolio/
+My-Portfolio/
 ├── index.html
+├── README.md
 ├── css/
 │   └── style.css
 ├── js/
 │   └── script.js
-├── images/
-│   ├── desktop.png
-│   ├── tablet.png
-│   └── mobile.png
-└── README.md
+└── images/
+    ├── Desktop1.png
+    ├── Desktop2.png
+    └── Desktop3.png
 ```
 
 ## Screenshots
 
-| Desktop | Tablet | Smartphone |
-|---|---|---|
-| ![Desktop view](images/desktop.png) | ![Tablet view](images/tablet.png) | ![Smartphone view](images/mobile.png) |
+Desktop view of the portfolio:
+
+![Desktop view 1](images/Desktop1.png)
+
+![Desktop view 2](images/Desktop2.png)
+
+![Desktop view 3](images/Desktop3.png)
 
 ## Testing
 
@@ -74,14 +78,15 @@ I tested the site in Chrome and Firefox, and used the browser DevTools (device t
 No installation is needed. Download or clone the repository, then open `index.html` in your browser.
 
 ```bash
-git clone <repository-link>
-cd portfolio
+git clone https://github.com/soniabena2005/My-Portfolio.git
+cd My-Portfolio
 ```
 
 ## Notes
 
 The contact form validates the input and shows a confirmation, but it does not send a real email, since the site has no backend. The message is only logged in the browser console. You can still reach me directly at the email address shown in the Contact section.
 
-## Live website
+## Links
 
-(Add your GitHub Pages URL here, or delete this section if you don't deploy it)
+- **GitHub repository:** https://github.com/soniabena2005/My-Portfolio
+- **Live website:** https://soniabena2005.github.io/My-Portfolio/
