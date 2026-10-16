@@ -89,4 +89,3 @@ The contact form validates the input and shows a confirmation, but it does not s
 ## Links
 
 - **GitHub repository:** https://github.com/soniabena2005/My-Portfolio
-- **Live website:** https://soniabena2005.github.io/My-Portfolio/
